@@ -1,0 +1,29 @@
+
+<p>In Python, a <strong>method</strong> is a function that belongs to an object which allows you to access or modify its state.</p>
+
+<h2>Method Syntax in Python</h2>
+
+<p>You call methods using dot notation:</p>
+
+<pre><code>object.method_name(arguments)</code></pre>
+
+<p>For example (don't worry about the specific types of objects or what the methods do for now):</p>
+
+<pre><code>my_list.append(5)           # Call append() method on my_list, pass 5 as an argument
+my_string.upper()           # Call upper() method on my_string
+my_dict.get("key")          # Call get() method on my_dict and pass "key" as an argument</code></pre>
+
+Remember, even if a method doesn't require arguments, you still need to include the parentheses when calling it (e.g. <code class="language-python">my_string.upper()</code>, not <code class="language-python">my_string.upper</code>).
+
+<h2>Methods Are Tied to Types</h2>
+
+<p>Methods only exist for their specific type. You can't call a method that doesn't belong to the type of object:</p>
+
+<py-cell>my_list = [1, 2, 3] # Create a list
+my_string = "hello" # Create a string
+
+my_list.append(4)           # Works - lists have append
+print(my_list)
+
+my_string.append("!")       # TypeError - strings don't have append</py-cell>
+
