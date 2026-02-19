@@ -10,7 +10,8 @@
     ],
     "duration": 3,
     "prerequisites": [
-        "programming-methods"
+        "programming-methods",
+        "python-variables"
     ],
     "related": []
 }
