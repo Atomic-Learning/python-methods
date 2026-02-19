@@ -1,7 +1,7 @@
 {
     "title": "Python: Methods",
     "slug": "python-methods",
-    "description": "Introduction to methods in Python. Covers what methods are, how to call them using dot notation, the difference between methods that modify objects in place versus those that return new values, and common methods for strings and lists.",
+    "description": "Introduction to methods in Python. Covers what methods are, how to call them using dot notation, and how trying to use a method that doesn't exist for a particular data type will result in an error.",
     "authors": [
         "chris-cooling"
     ],
